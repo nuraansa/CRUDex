@@ -10,7 +10,7 @@ let blogPosts = [
     {
     id: " 2",
     title: "Interior Design Elements",
-    imageUrl: "https://i.postimg.cc/FFkmZLNf/what-does-an-interior-designer-do.jpg",
+    imageUrl: "https://i.postimg.cc/bwrpCQVk/7e389f51fc4f36438e4c46.webp",
     description: "What you need to know about design elements",
     content: "Interior design elements are the fundamental building blocks used to create visually appealing and functional spaces. Understanding how to effectively use these elements can transform a room, evoking different moods and achieving specific design goals. Houzz (https://www.houzz.com/ideabooks/interior-design-elements) is a popular website that provides a wealth of information on interior design elements. Their ideabooks cover various design elements, offering inspiration, tips, and in-depth explanations of how to incorporate these elements into your own interior design projects. Whether you're looking to understand the power of color, the importance of lighting, or how to choose the right furniture, Houzz is a valuable resource for exploring and learning about interior design elements ",
     date: new Date( )
@@ -35,7 +35,7 @@ let blogPosts = [
     {
         id: " 5",
         title: "Mastering Lights",
-        imageUrl: "https://i.postimg.cc/FFkmZLNf/what-does-an-interior-designer-do.jpg",
+        imageUrl: "https://i.postimg.cc/MTrsLG7d/Whats-App-Image-2019-04-23-at-06-20-10.jpg",
         description: "Illuminating Your Interiors Like a Pro",
         content: "<a href ='https://www.lampsplus.com/ideas-and-advice/how-to-light-a-room/'> Learn more </a> about the different types of lighting, layering techniques, and tips for creating the right ambiance in each room, enhancing both functionality and aesthetics. ",
         date: new Date( )
@@ -44,7 +44,7 @@ let blogPosts = [
     {
         id: " 6",
         title: "Furniture 101",
-        imageUrl: "https://i.postimg.cc/FFkmZLNf/what-does-an-interior-designer-do.jpg",
+        imageUrl: "https://i.postimg.cc/0QnmBJPw/pexels-martin-p-chy-1866149.jpg",
         description: "Understanding Styles, Materials, and Placement",
         content: " Get acquainted with different furniture styles, materials, and how to choose and arrange furniture pieces to optimize functionality, aesthetics, and traffic flow. Make sure to visit <a href = 'https://www.wayfair.com/ideas-and-advice/furniture-101-e201' >Wayfair</a> to learn more about placement in your home",
         date: new Date( )
@@ -53,7 +53,7 @@ let blogPosts = [
     {
         id: " 7",
         title: "Textiles and Fabrics",
-        imageUrl: "https://i.postimg.cc/FFkmZLNf/what-does-an-interior-designer-do.jpg",
+        imageUrl: "https://i.postimg.cc/gjBhYFwc/pexels-designecologist-1248583.jpg",
         description: "Adding Texture and Comfort to Your Home",
         content: "Discover the <a href = 'https://foter.com/interior-fabrics-and-textiles-everything-you-need-to-know'>role of textiles and fabrics </a> in interior design, including tips on choosing the right materials, patterns, and textures to enhance the comfort and visual appeal of your home. ",
         date: new Date( )
@@ -62,7 +62,7 @@ let blogPosts = [
     {
         id: " 8",
         title: "Budget-Friendly Tips",
-        imageUrl: "https://i.postimg.cc/FFkmZLNf/what-does-an-interior-designer-do.jpg",
+        imageUrl: "https://i.postimg.cc/5NmPcpSX/maxresdefault.jpg",
         description: "How to Decorate on a Beginner's Budget",
         content: " Designing your dream space doesn't have to break the bank. <a href ='https://www.livspace.com/my/magazine/tips-for-interior-design-on-a-budget'>Liv Space</a> focuses on providing practical and creative tips for achieving stylish interior design on a budget. From smart shopping strategies to repurposing existing items, you'll discover how to make the most of your resources while creating a beautiful and inviting home  ",
         date: new Date( )
@@ -71,7 +71,7 @@ let blogPosts = [
     {
         id: " 9",
         title: "DIY Interior",
-        imageUrl: "https://i.postimg.cc/FFkmZLNf/what-does-an-interior-designer-do.jpg",
+        imageUrl: "https://i.postimg.cc/5N1XYmdq/wall-decor-ideas.jpg",
         description: "Fun projects to kick of your inner interior designer",
         content: " Add a personal touch to your living space with easy and affordable DIY decor projects. Craft unique wall art, repurpose furniture, and create decorative accents to showcase your creativity. Explore a variety of project ideas and step-by-step instructions by clicking <a href = ''>here</a>. Personalize your home and enjoy the satisfaction of creating your own stylish decor. Projects not only add a personal touch but also provide a sense of accomplishment as you bring your own style and creativity to your home decor. ",
         date: new Date( )
@@ -91,7 +91,9 @@ blogPosts.forEach((data)=> {
     //     </div>
     // </div>
     // `
-`     <div class="container-fluid d-flex flex-row">
+
+`     
+      <div class="container-fluid d-flex flex-row">
       <div class="card text-bg-dark m-3" style="width: 30rem">
       <img class="card-img-top" src="${data.imageUrl}" alt="img">
         <div class="card-img-overlay">
