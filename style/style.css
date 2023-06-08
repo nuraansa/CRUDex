@@ -30,3 +30,20 @@ a:hover{
     background-color: rgb(188, 174, 160);
     color: black;
 }
+
+.card-img-top{
+    width: 10 rem;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+
+}
+
+.card-group {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 1rem;
+    /* border-radius: 5px; */
+    border: 1px solid #bbb;
+    /* gap: 2rem; */
+  }

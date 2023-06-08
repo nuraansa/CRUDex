@@ -81,26 +81,24 @@ let blogPosts = [
 blogPosts.forEach((data)=> {
     blog.innerHTML += 
 `     
-      <div class="container-fluid d-flex flex-row">
-      <div class="card text-bg-dark m-3" style="width: 30rem">
-      <img class="card-img-top" src="${data.imageUrl}" alt="img">
-        <div class="card-img-overlay">
-          <h5 class="card-title">${data.title}</h5>
-        <p>Nuuran Samodien</p>
-          <p class="card-text">
-          <span>${data.description}</span>
-          </p>
-        
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
-            Launch demo modal
-          </button
-        //   ______________________________________________
-        //   <!-- Modal -->
+
+<div class="card mb-3">
+<h5 class="card-title">${data.title}</h5>
+<img class="card-img-top" src="${data.imageUrl}" alt="img">
+<div class="card-body">
+ 
+  <p class="card-text">${data.description}</p>
+  <p class="card-text"><small class="text-muted">${data.date}</small>
+  <button
+      type="button"
+      class="btn btn-secondary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal">
+      Read More
+    </button>
+</div>
+</div>
+           <!-- Modal -->
           <div
             class="modal fade"
             id="exampleModal"
@@ -115,7 +113,7 @@ blogPosts.forEach((data)=> {
                   ${data.title}
                   </h1>
                   <div class="modal-body">
-                 <p>Modal body text goes here.</p>
+                 <p>${data.content}.</p>
                 </div>
                   <button
                     type="button"
@@ -132,9 +130,6 @@ blogPosts.forEach((data)=> {
                     data-bs-dismiss="modal"
                   >
                     Close
-                  </button>
-                  <button type="button">
-                    Save changes
                   </button>
                 </div>
               </div>
