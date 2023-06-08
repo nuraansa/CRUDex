@@ -5,8 +5,25 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
+/* nav */
+.navbar{
+    background-color: black;
+    color: white;
+}
 a:hover{
     /* background-color: black; */
-    color: black !important;
+    color: rgb(218, 113, 113) !important;
+}
+/* main */
+.bg{
+    height: 36rem;
+}
+/* card-footer */
+.card-footer{
+    margin: auto;
+}
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
 }

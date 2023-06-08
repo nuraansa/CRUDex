@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <title>CRUD Site</title>
     <!-- BS css -->
     <link
@@ -12,32 +16,72 @@
       crossorigin="anonymous"
     />
     <!-- custom css -->
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
     <!-- nav -->
-    <nav class="navbar bg-body-secondary">
+    <nav class="navbar">
       <div class="container">
         <a class="navbar-brand" href="../index.html">
           <img src="#" alt="Logo" width="30" height="24" />
         </a>
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link " href="../index.html">Home</a>
+            <a class="nav-link text-white" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./blog.html">Products</a>
+            <a class="nav-link text-white" href="./blog.html">Products</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="./admin.html">Admin</a>
+            <a class="nav-link text-white" href="./admin.html">Admin</a>
           </li>
         </ul>
       </div>
     </nav>
     <!-- main -->
+    
+    <!-- admin -->
+    <section class="container" id="admin">
+      <div class="row">
+        <h1 class="head text-center">A D M I N</h1>
+        <div class="col"></div>
+      </div>
 
+<!-- 
+    <div class="container">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Image</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> -->
     <!-- footer -->
-    <footer class="footer fixed-bottom text-center bg-body-secondary">
+    <footer class="footer bottom-0 text-center">
       <br />
       <p>f u r n i t u r e</p>
       <p>© copyright</p>
@@ -49,6 +93,6 @@
       crossorigin="anonymous"
     ></script>
     <!-- custom js -->
-    <script src="./script/admin.js"></script>
+    <script src="../script/admin.js"></script>
   </body>
 </html>
